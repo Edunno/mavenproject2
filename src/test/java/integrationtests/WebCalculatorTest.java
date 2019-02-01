@@ -18,7 +18,8 @@ import utils.HttpClient;
  */
 public class WebCalculatorTest {
 
-    HttpClient hc = new HttpClient("http://104.248.22.167:8080/mavenproject2/calculator");
+//    HttpClient hc = new HttpClient("http://104.248.22.167:8080/mavenproject2/calculator");
+    HttpClient hc = new HttpClient("http://localhost:7777/mavenproject2/calculator");
 
     public WebCalculatorTest() {
     }
