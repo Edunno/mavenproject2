@@ -37,6 +37,7 @@ public class WebCalculatorTest {
     public void mulIT() {
         String expRes = "Result of: 10*10= 100";
         String res = "";
+        
         try {
             res = hc.makeHttpRequest("?operation=mul&n1=10&n2=10");
         } catch (IOException ex) {
